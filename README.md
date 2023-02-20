@@ -52,6 +52,6 @@
   @reboot /path/to/script.sh
   ```
     
-  Replace `/path/to/script.sh` with the actual path to the script file. Save and close the file.  
+  Replace `/path/to/keep_it_clean.sh` with the actual path to the script file. Save and close the file.  
     
   Note that running the script on every boot can be dangerous if you don't thoroughly test it and ensure that it does not delete any important files. You should also ensure that the script does not interfere with other system processes or slow down the boot process.
