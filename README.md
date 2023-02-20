@@ -1,7 +1,7 @@
 # Bash Script to Delete Old Files  
     
   Im not able to keep my Downloads folder clean. So i asked chatgtp to write this script for me which autodeletes everything after one week. 
-  This bash script checks a given folder for files older than a specified time period and moves them to the trash. It can also notify the user if any files were deleted using a notification.  
+  This bash script checks a given folder for files older than a specified time period and moves them to the trash ( based on the time the file was last accessed: -atime). It can also notify the user if any files were deleted using a notification.  
 ## Getting Started  
 ### Prerequisites  
 - `bash` shell  
