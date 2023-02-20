@@ -50,7 +50,7 @@
 
     
   ```
-  @reboot /path/to/eep_it_clean.sh
+  @reboot /path/to/keep_it_clean.sh
   ```
     
   Replace `/path/to/keep_it_clean.sh` with the actual path to the script file. Save and close the file.  
