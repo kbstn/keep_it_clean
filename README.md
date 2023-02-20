@@ -1,13 +1,13 @@
-- # Bash Script to Delete Old Files  
+# Bash Script to Delete Old Files  
     
   This bash script checks a given folder for files older than a specified time period and moves them to the trash. It can also notify the user if any files were deleted using a notification.  
-- ## Getting Started  
-- ### Prerequisites  
+## Getting Started  
+### Prerequisites  
 - `bash` shell  
 - `find` command  
 - `trash` command (optional)  
 - `notify-send` command (optional)  
-- ### Installing  
+### Installing  
 - Download the script file to a directory of your choice.  
 - Make the script file executable with the command `chmod +x script.sh`.  
 - ### Usage  
@@ -19,7 +19,7 @@
   ```
     
   By default, the script checks the `/home/Downloads/` directory for files older than 7 days and moves them to the trash. If any files are deleted, it displays a notification.  
-- ### Customizing  
+### Customizing  
     
   You can customize the behavior of the script by modifying the following variables at the top of the script:  
 - `directory`: The directory to check for old files.  
