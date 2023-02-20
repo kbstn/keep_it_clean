@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the directory to check and the number of days
-directory="/home/Downloads/"
+directory="/home/user/Downloads/"
 days=7
 
 # Check if the directory exists
