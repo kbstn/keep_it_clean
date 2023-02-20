@@ -16,7 +16,7 @@
   To run the script, open a terminal and navigate to the directory containing the script file. Then, run the script with the command:  
         
   ```
-  ./script.sh
+  ./keep_it_clean.sh
   ```
     
   By default, the script checks the `/home/Downloads/` directory for files older than 7 days and moves them to the trash. If any files are deleted, it displays a notification.  
@@ -50,7 +50,7 @@
 
     
   ```
-  @reboot /path/to/script.sh
+  @reboot /path/to/eep_it_clean.sh
   ```
     
   Replace `/path/to/keep_it_clean.sh` with the actual path to the script file. Save and close the file.  
