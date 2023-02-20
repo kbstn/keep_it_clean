@@ -46,11 +46,11 @@
   crontab -e
   ```
     
-  This will open `crontab` in your default text editor. Add the following line to the end of the file to run the script on every boot:  
+  This will open `crontab` in your default text editor. Add the following line to the end of the file to run the script on every boot after waiting 30 secoonds so u have time to get notified:  
 
     
   ```
-  @reboot /path/to/keep_it_clean.sh
+  @reboot sleep 30 && /home/koni/scripts/keep_it_clean.sh
   ```
     
   Replace `/path/to/keep_it_clean.sh` with the actual path to the script file. Save and close the file.  
