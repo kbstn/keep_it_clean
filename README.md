@@ -13,11 +13,7 @@
 - ### Usage  
     
   To run the script, open a terminal and navigate to the directory containing the script file. Then, run the script with the command:  
-    
-  ```
-  bash
-  ```
-    
+        
   ```
   ./script.sh
   ```
@@ -32,10 +28,7 @@
   If you don't have the `trash` command installed, you can remove the `-exec trash {} \;` part of the `find` command to permanently delete the old files instead of moving them to the trash.  
     
   If you don't have the `notify-send` command installed, you can install it using the following command:  
-    
-  ```
-  
-  ```
+
     
   ```
   sudo pacman -S libnotify
@@ -46,19 +39,14 @@
     
   If you want to run the script on every boot, you can add it to `crontab`. To do this, open a terminal and run the following command:  
     
-  ```
-  
-  ```
+
     
   ```
   crontab -e
   ```
     
   This will open `crontab` in your default text editor. Add the following line to the end of the file to run the script on every boot:  
-    
-  ```
-  python
-  ```
+
     
   ```
   @reboot /path/to/script.sh
