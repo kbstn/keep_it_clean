@@ -7,8 +7,8 @@ days=7
 # Check if the directory exists
 if [ -d "$directory" ]; then
     # Find all files in the directory older than the specified number of days a>
-    deleted_files=$(find "$directory" * -ctime +7 -type f -exec trash {} \; -pr>
-    find "$directory" * -ctime +7 -type f -exec rm {} \;
+    deleted_files=$(find "$directory" * -atime +7 -type f -exec trash {} \; -pr>
+    find "$directory" * -atime +7 -type f -exec rm {} \;
     # remove empty dirs afterwards
     find "$directory" -empty -type d -delete
 
